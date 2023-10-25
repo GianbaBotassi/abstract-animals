@@ -1,4 +1,4 @@
-package org.lessons.java;
+package org.lessons.java.zoo;
 
 public class Zoo {
     public static void main(String[] args) {

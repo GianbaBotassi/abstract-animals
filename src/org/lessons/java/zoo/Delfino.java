@@ -1,4 +1,4 @@
-package org.lessons.java;
+package org.lessons.java.zoo;
 
 public class Delfino extends Animale  implements canSwim{
     public Delfino(String nome) {

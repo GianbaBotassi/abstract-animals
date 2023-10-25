@@ -1,4 +1,4 @@
-package org.lessons.java;
+package org.lessons.java.zoo;
 
 public class Aquila extends Animale implements canFly{
     public Aquila(String nome) {
