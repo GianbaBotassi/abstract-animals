@@ -7,7 +7,10 @@ public class Creator {
         if (tipo.equals("Playstation")) {
             return new Playstation();
         }
+        if(tipo.equals("LettoreDVD")){
         return new LettoreDVD();
+        }
+        return null;
     }
 
 }
