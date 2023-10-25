@@ -2,12 +2,12 @@ package org.lessons.java.tech;
 
 public class Main {
     public static void main(String[] args) {
-        Creator cighi = new Creator();
-        PlayStop play2 = cighi.create("Playstation");
+
+        PlayStop play2 = Creator.create("Playstation");
         play2.play();
         play2.stop();
 
-        PlayStop dvd = cighi.create("LettoreDVD");
+        PlayStop dvd = Creator.create("LettoreDVD");
         dvd.play();
         dvd.stop();
     }
